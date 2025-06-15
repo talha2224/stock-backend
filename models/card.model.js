@@ -1,7 +1,5 @@
 const mongoose = require("mongoose")
 
-
-
 const CardSchema = mongoose.Schema({
     userId:{type:mongoose.Schema.Types.ObjectId,ref:"Account"},
     name:{type:String,required:true},
